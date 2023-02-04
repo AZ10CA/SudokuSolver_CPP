@@ -1,17 +1,16 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/alireza/Desktop/SudokuCPP/Sudoku.cpp" "/Users/alireza/Desktop/SudokuCPP/cmake-build-debug/CMakeFiles/SudokuCPP.dir/Sudoku.cpp.o"
-  "/Users/alireza/Desktop/SudokuCPP/SudokuSolver.cpp" "/Users/alireza/Desktop/SudokuCPP/cmake-build-debug/CMakeFiles/SudokuCPP.dir/SudokuSolver.cpp.o"
-  "/Users/alireza/Desktop/SudokuCPP/main.cpp" "/Users/alireza/Desktop/SudokuCPP/cmake-build-debug/CMakeFiles/SudokuCPP.dir/main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/alireza/Desktop/resume_projects/SudokuSolver_CPP/Sudoku.cpp" "CMakeFiles/SudokuCPP.dir/Sudoku.cpp.o" "gcc" "CMakeFiles/SudokuCPP.dir/Sudoku.cpp.o.d"
+  "/Users/alireza/Desktop/resume_projects/SudokuSolver_CPP/SudokuSolver.cpp" "CMakeFiles/SudokuCPP.dir/SudokuSolver.cpp.o" "gcc" "CMakeFiles/SudokuCPP.dir/SudokuSolver.cpp.o.d"
+  "/Users/alireza/Desktop/resume_projects/SudokuSolver_CPP/main.cpp" "CMakeFiles/SudokuCPP.dir/main.cpp.o" "gcc" "CMakeFiles/SudokuCPP.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -14,7 +14,7 @@ private:
     /// Source Filename
     char* file_name{nullptr};
 
-    /// Statistics Variables
+    /// Statistics Properties
     int solutions;
     int recursive_calls;
 
