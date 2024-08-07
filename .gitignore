@@ -1,0 +1,85 @@
+# Ignore the build directory
+/build/
+/bin/
+/obj/
+/out/
+/lib/
+/dist/
+/Debug/
+/Release/
+
+# Ignore CMake build files
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.vspscc
+*.vssscc
+*.sln
+*.suo
+*.user
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore Code::Blocks files
+*.layout
+*.cbp
+*.depend
+*.layout
+
+# Ignore JetBrains CLion files
+.idea/
+
+# Ignore macOS generated files
+.DS_Store
+
+# Ignore Windows generated files
+Thumbs.db
+Desktop.ini
+
+# Ignore Qt Creator files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qbs
+*.qmltypes
+*.qmlproject.user
+
+# Ignore compiled object files and libraries
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.pid
+
+# Ignore editor-specific files
+*.code-workspace
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+*.swo
