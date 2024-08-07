@@ -9,7 +9,7 @@
 #include "Sudoku.h"
 
 
-class SudokuSolver : public Sudoku{
+class SudokuSolver : public Sudoku {
 private:
     /// Source Filename
     char* file_name{nullptr};

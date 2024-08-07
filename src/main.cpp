@@ -1,13 +1,13 @@
 // SudokuSolver solver version 2.1
 #include <iostream>
-#include "SudokuSolver.h"
-#include "ChronoTimer.h"
+#include "../include/SudokuSolver.h"
+#include "../include/ChronoTimer.h"
 
 using namespace std;
 
 int main(){
     ChronoTimer timer;
-    SudokuSolver solver("Board.txt");
+    SudokuSolver solver("board.txt");
     solver.print();
     cout << endl;
     solver.solve();

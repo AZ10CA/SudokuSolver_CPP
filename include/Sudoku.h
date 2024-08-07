@@ -5,18 +5,19 @@
 #ifndef SUDOKUCPP_SUDOKU_H
 #define SUDOKUCPP_SUDOKU_H
 #include <bitset>
+#include <cassert>
 
 
 class Sudoku {
 protected:
     /// Static Variables
-    const static int ROWS{9};
-    const static int COLUMNS{9};
-    const static int SQUARE_ROWS{3};
-    const static int SQUARE_COLUMNS{3};
+    constexpr static int ROWS{9};
+    constexpr static int COLUMNS{9};
+    constexpr static int SQUARE_ROWS{3};
+    constexpr static int SQUARE_COLUMNS{3};
 
-    const static int MIN{1};
-    const static int MAX{9};
+    constexpr static int MIN{1};
+    constexpr static int MAX{9};
 
     typedef std::bitset<MAX + 1> State;
     /// Bitmasks

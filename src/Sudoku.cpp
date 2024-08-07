@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "Sudoku.h"
+#include "../include/Sudoku.h"
 
 void Sudoku::set_squares_state(){
     for(int d = 0; d < ROWS / SQUARE_ROWS; d++)

@@ -1,6 +1,6 @@
 /// Sudoku Solver Version 2.1
 
-#include "SudokuSolver.h"
+#include "../include/SudokuSolver.h"
 
 void SudokuSolver::search(const int& row, const int& col){
     recursive_calls++;
